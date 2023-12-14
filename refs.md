@@ -5,3 +5,5 @@ https://reference.wolfram.com/language/guide/GraphModifications.html
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol187-stacs2021/LIPIcs.STACS.2021.2/LIPIcs.STACS.2021.2.pdf
 
 https://en.wikipedia.org/wiki/Logic_of_graphs
+
+https://en.wikipedia.org/wiki/Distance-hereditary_graph
