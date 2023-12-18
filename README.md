@@ -12,4 +12,6 @@ Existence of tiwns (vertices whose set of neighbors are identical, not including
 In second order logic, the variables represent complex structures built from $k$-ary relations.
 A restricted set of second order logic of graphs, MSO 1 and 2. 
 MSO1 : Add another type of variable for sets of vertices to FO logic. (ability to test if a vertex belongs to a set)
-MSO2 : 
+MSO2 : MSO2 is similar, but allows four types of variables: vertices, edges, and sets of vertices and edges. 
+
+The point of this is completely constructive: it's not just that an algorithm exists, but in principle we could automatically translate the formula into the algorithm. It's also completely useless in practice because the dependence on the parameter is ridiculously high (some kind of tower of powers). When an algorithm is found in this way, additional research is needed to find a more direct algorithm that reduces this dependence to something more reasonable like single-exponential with a small base, or even removes it to get a polynomial time algorithm. 
