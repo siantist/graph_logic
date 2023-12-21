@@ -7,3 +7,5 @@ https://drops.dagstuhl.de/storage/00lipics/lipics-vol187-stacs2021/LIPIcs.STACS.
 https://en.wikipedia.org/wiki/Logic_of_graphs
 
 https://en.wikipedia.org/wiki/Distance-hereditary_graph
+
+https://www.fields.utoronto.ca/programs/scientific/10-11/lics11/AtseriasTutorial.pdf
