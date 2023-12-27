@@ -29,3 +29,9 @@ Def 1.6: Let M be a circuit. The depth of M is the sup of set of all natural num
 
 Discrete dynamical systems can be represented visually with the iteration digraph (Collatz digraph). 
 Def 1.11: A semibasin is subset B of state set $\Gamma$ with $\Phi(B) \subseteq B$. A basin is a semibasin $B$ where the complement $\Gamma \setminus B$ is also a semibasin. 
+
+All circuits are finite semibasins. Any subset $M$ of $\Gamma$ generates semibasin $\cup_{x \in M} \cup_{n \in N} \Phi^n(x)$. 
+
+Define 2 new systems given dynamical system $(\Gamma, \Phi)$ and semibasin $B$:
+(i) subsystem $(B, \Phi_{|B}$
+(ii) quotient system $(\Gamma_{ / B}, \Phi')$ where $\Gamma_{ / B} = \Gamma \setminus B \cup \{ B\}$ and $\Phi'$ is $\Phi'(x) = \Phi(x) , x \in \Gamma \setminus B$ if $\Phi(x) \notin B$, $= B , x \in \Gamma \setminus B$ if $\Phi(x) \in B$, else $\Phi'(B) = B$.
