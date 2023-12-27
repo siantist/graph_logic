@@ -25,4 +25,7 @@ Def 1.3: Let x be some state. x is convergent if $\Phi^n(x)/n$ is finite. Otherw
 The depth(x) is the supremum of the set of all natural numbers $n$ for which there is some state $y \in \Gamma$ with $\Phi^n(y) = x$. 
 Remark 1.4: A state x is convergent iff x is periodic or there is n where $\Phi^n(x)$ periodic.
 A circuit: set of the form $\{ x, \Phi(x), ..., \Phi^p(x) = x\}$
-Def 1.6: Let M be a circuit. The depth of M is the sup of set of all natural numbers n s.t. $ \exists y \in \Gamma, \Phi^n(y) \in M$ but $\Phi^{n-1}(y) \notin M$.
+Def 1.6: Let M be a circuit. The depth of M is the sup of set of all natural numbers n s.t. $\exists y \in \Gamma, \Phi^n(y) \in M$ but $\Phi^{n-1}(y) \notin M$.
+
+Discrete dynamical systems can be represented visually with the iteration digraph (Collatz digraph). 
+Def 1.11: A semibasin is subset B of state set $\Gamma$ with $\Phi(B) \subseteq B$. A basin is a semibasin $B$ where the complement $\Gamma \setminus B$ is also a semibasin. 
