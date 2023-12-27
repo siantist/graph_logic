@@ -23,3 +23,5 @@ From Graph Dynamics:
 Def 1.1: A discrete dynamical system is a set $\Gamma$ together with mapping $\Phi: \Gamma \rightarrow \Gamma$, and elements of $\Gamma$ are states.
 Def 1.3: Let x be some state. x is convergent if $\Phi^n(x)/n$ is finite. Otherwise, x is divergent. x is periodic if there is a natural number n s.t. $\Phi^n(x)=x$. 
 The depth(x) is the supremum of the set of all natural numbers $n$ for which there is some state $y \in \Gamma$ with $\Phi^n(y) = x$. 
+Remark 1.4: A state x is convergent iff x is periodic or there is n where $\Phi^n(x)$ periodic.
+
